@@ -1,0 +1,175 @@
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+
+}
+body{
+	background-image: url(weather.jpg);
+	height: 500px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+  
+}
+.logo
+{
+	
+    font-size:24px;
+    color:white;
+    font-family: arial;
+    padding-left: 15vw;
+    
+}
+
+.time
+{
+   	
+    font-size:50px;
+    color:white;
+    padding-left: 15vw;
+
+}
+
+.sta
+{
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+.pla
+{
+    font-size: 20px;
+    font-family: Lucida Sans Unicode;
+
+}
+ .form label
+ {
+    font-family: Lucida Sans Unicode;
+    display: inline-block;
+    font-weight: bold;
+ }
+
+ form
+ {
+  	width:33.33%;
+  	border-radius: 10px;
+  	background-color: transparent;
+  	color:hsl(9, 100%, 64%);
+  	width:320px;
+  	/*float:right;
+  	float:top;*/
+  	display: inline-block;
+  	padding-left: 65vw;
+
+
+
+}
+.hy a
+{
+	padding-left: 15vw;
+	font-size: 25px;
+	color: #F5F5F5;
+	background-color: transparent;
+	text-decoration: none;
+	font-style: 
+  
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+	h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+body{
+	background-image: url(weather.jpg);
+	height: 500px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+  
+}
+.logo
+{
+	width:33.33%;
+    font-size:24px;
+    color:orange;
+    font-family: arial;
+    /*padding-top: 80px;
+  	padding-right: 30px;
+  	padding-bottom: 60px;
+  	padding-left: 80px;*/
+}
+
+.time time
+{
+   	width:33.33%;
+    font-size:50px;
+    color:white;
+    position: relative;
+    left:50px;
+    /*padding-top: 5px;
+  	padding-right: 30px;
+  	padding-bottom: 30px;
+  	padding-left: 80px;*/
+}
+
+.sta
+{
+    font-size: 20px;
+
+}
+
+.pla
+{
+    font-size: 20px;
+    font-family: Lucida Sans Unicode;
+
+}
+ .form label
+ {
+    font-family: Lucida Sans Unicode;
+    display: inline-block;
+    color : rgba(32,178,170);
+    
+
+ }
+
+ form
+ {
+  	width:33.33%;
+  	border-radius: 10px;
+  	background-color: transparent;
+  	color:white;
+  	width:320px;
+  	float:right;
+  	float:top;
+  	display: inline-block;
+  	text-align: center;
+}
+
+}
+  
+
